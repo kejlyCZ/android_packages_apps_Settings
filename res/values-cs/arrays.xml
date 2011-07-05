@@ -157,4 +157,18 @@
     <item msgid="1276641209451816572">"Pouze v tichém režimu"</item>
     <item msgid="8418930333779132418">"Pouze pokud není v tichém režimu"</item>
   </string-array>
+  
+  <string-array name="backgroundWidget">
+    <item>Šedý</item>
+    <item>Průhledný</item>
+  </string-array>
+
+  <string-array name="bluetooth_discoverable_duration_entries">
+    <item>60 sekund</item>
+    <item>120 sekund</item>
+    <item>300 sekund</item>
+    <item>600 sekund</item>
+    <item>Nekonečně</item>
+  </string-array>
+
 </resources>

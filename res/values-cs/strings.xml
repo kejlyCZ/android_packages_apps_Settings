@@ -409,6 +409,7 @@
     <string name="wifi_tether_configure_subtext" msgid="1927454307836232128">"Přenosný hotspot Wi-Fi <xliff:g id="NETWORK_SSID">%1$s</xliff:g> <xliff:g id="NETWORK_SECURITY">%2$s</xliff:g>"</string>
     <string name="wifi_tether_configure_ssid_default" msgid="8467525402622138547">"AndroidHotspot"</string>
     <string name="sound_settings_title" msgid="8735891486683305886">"Zvuk"</string>
+    <string name="profile_settings_title">Profily</string>
     <string name="display_settings_title" msgid="1708697328627382561">"Zobrazení"</string>
     <string name="sound_settings" msgid="5007659014828162881">"Nastavení zvuku"</string>
     <string name="silent_mode_title" msgid="3181479108593217704">"Tichý režim"</string>
@@ -444,6 +445,8 @@
     <string name="lock_sounds_enable_title" msgid="1575990840389107141">"Zvuky uzamčení obrazovky"</string>
     <string name="lock_sounds_enable_summary_on" msgid="145741024028391473">"Přehrát zvuk při uzamykání a odemykání obrazovky"</string>
     <string name="lock_sounds_enable_summary_off" msgid="8481243116223542804">"Přehrát zvuk při uzamykání a odemykání obrazovky"</string>
+    <string name="power_sounds_enable_title">Zvuk vybité terie</string>
+    <string name="power_sounds_enable_summary">Přehrát zvuk při alarmu vybité baterie</string>
     <string name="haptic_feedback_enable_title" msgid="6311736559245411290">"Hmatová odezva"</string>
     <string name="haptic_feedback_enable_summary_on" msgid="1875779656524793053">"Vibrovat při stisku softwarových kláves a při některých událostech uživatelského rozhraní"</string>
     <string name="haptic_feedback_enable_summary_off" msgid="7287885436963105314">"Vibrovat při stisku softwarových kláves a při některých událostech uživatelského rozhraní"</string>
@@ -1133,6 +1136,47 @@
     <string name="encrypted_fs_cancel_button" msgid="4785921255266305799">"Zrušit"</string>
     <string name="encrypted_fs_cancel_confirm" msgid="853572431153803557">"Změna režimu systému souborů EFS byla zrušena."</string>
     <string name="encrypted_fs_alert_dialog_title" msgid="583462447886934755">"Upozornění systému souborů EFS."</string>
+
+    <string name="profile_title">Nastavení profilů</string>
+    <string name="profile_appgroup_list_title">Nastavení skupin aplikací</string>
+    <!-- Profile Settings sound mode label -->
+    <string name="sound_mode">Notification mode</string>
+    <!-- Profile Settings ringer mode label -->
+    <string name="ringer_mode">Ring mode</string>
+    <!-- Profile Settings lights mode label -->
+    <string name="lights_mode">Lights mode</string>
+    <!-- Profile Settings vibrate mode label -->
+    <string name="vibrate_mode">Vibrate mode</string>
+    <string name="choose_soundtone">Zvolte tón upozornění</string>
+    <string name="choose_ringtone">Zvolte vyzváněcí tón</string>
+    <string name="profile_settings">Nastavení profilu</string>
+    <string name="profile_name">Jméno profilu</string>
+    <string name="new_profile_name">&lt;nový profil&gt;</string>
+    <string name="profile_summary">Klepněte pro nastavení profilu</string>
+    <string name="profile_appgroup_title">Skupina aplikací: %s</string>
+    <string name="profile_appgroups_title">Skupiny aplikací</string>
+    <string name="profile_volumeoverrides_title">Přepíše hlasitost</string>
+    <string name="profile_volumeoverrides_summary">Klepněte pro nastavení hlasitosti.</string>
+    <string name="profile_applist_title">Aplikace - klikněte pro odebrání ze skupiny</string>
+    <string name="profile_appgroup_name_prompt">Zadejte jméno pro skupinu aplikací</string>
+    <string name="profile_delete">Smazat profil</string>
+    <string name="profile_delete_confirm">Opravdu chcete smazat tento profil</string>
+    <string name="profile_app_delete_confirm">Opravdu chcete odebrat tuto aplikaci</string>
+    <string name="profile_choose_app">Vyberte aplikace</string>
+    <string name="profile_settings_header">Nastavení profilu: %s</string>
+    <string name="profile_group_header">Profil: %1$s kategorie: %2$s</string>
+    <string name="menu_appgroups">Správa skupin aplikací</string>
+    <string name="menu_new_profile">Nový profil</string>
+    <string name="menu_new_profile_summary">Přidat a nastavit nový profil</string>
+    <string name="profile_menu_delete">Smazat</string>
+    <string name="profile_cannot_delete">Aktivní profil nelze smazat.</string>
+    <string name="profile_new_appgroup">Nová skupina aplikací</string>
+    <string name="profile_delete_appgroup">Smazat tuto skupinu aplikací</string>
+    <string name="profile_add_app">Přidat aplikaci</string>
+    <string name="profile_manage">Správa profilů</string>
+    <string name="profile_appgroups_manage">Správa skupin aplikací</string>
+    <string name="profile_applist_manage">Správa seznamu aplikací</string>
+
     <string name="emergency_tone_title" msgid="1055954530111587114">"Tísňové vyzvánění"</string>
     <string name="emergency_tone_summary" msgid="722259232924572153">"Nastavit chování při tísňovém volání"</string>
     <string name="privacy_settings" msgid="9206631214140954954">"Ochrana osobních údajů"</string>
@@ -1163,4 +1207,5 @@
     <string name="wimax_settings" msgid="1574837328738396794">"Nastavení sítě 4G"</string>
     <string name="wimax_settings_summary" msgid="3207355006084135453">"Nastavení a správa sítě 4G a modemu"</string>
     <string name="status_wimax_mac_address" msgid="8390791848661413416">"Adresa MAC sítě 4G"</string>
+    <string name="additional_system_update_settings_list_item_title">OTA aktualizace systému</string>
 </resources>
